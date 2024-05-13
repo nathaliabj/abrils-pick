@@ -62,7 +62,7 @@ const App = () => {
           </p>
 
           <button
-            className="bg-cyan-400 w-60 h-11 b font-bold rounded-md border-black border-2 m-auto block active:border-4"
+            className="bg-cyan-400 text-black w-60 h-11 b font-bold rounded-md border-black border-2 m-auto block active:border-4"
             onClick={() => setShowCards(!showCards)}
           >
             Click me 👀
@@ -95,6 +95,8 @@ const App = () => {
                   </h2>
                   <p className="text-black text-xl mb-20 font-bold">
                     {options[0].description}
+                    <br />
+                    <span className="pt-8">🏕️</span>
                   </p>
                 </>
               ) : (
@@ -115,6 +117,8 @@ const App = () => {
                   </h2>
                   <p className="text-black text-xl mb-20 font-bold">
                     {options[1].description}
+                    <br />
+                    <span className="pt-8">🏋️</span>
                   </p>
                 </>
               ) : (
@@ -135,6 +139,8 @@ const App = () => {
                   </h2>
                   <p className="text-black text-xl mb-20 font-bold">
                     {options[2].description}
+                    <br />
+                    <span className="pt-8">🐶</span>
                   </p>
                 </>
               ) : (
