@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import "./App.css";
 
@@ -25,6 +25,7 @@ const App = () => {
   const [showOpt1, setShowOpt1] = useState(false);
   const [showOpt2, setShowOpt2] = useState(false);
   const [showOpt3, setShowOpt3] = useState(false);
+
   return (
     <div className="bg-fuchsia-400 h-screen px-4 !font-mono">
       {!showCards ? (
@@ -67,8 +68,8 @@ const App = () => {
           <button
             className="bg-cyan-400 text-black w-60 h-11 b font-bold rounded-md border-black border-2 m-auto block active:border-4 hover:bg-cyan-500"
             onClick={() => {
-              setShowCards(!showCards);
               window.scrollTo({ top: 0, behavior: "smooth" });
+              setShowCards(!showCards);
             }}
           >
             Click me 👀
