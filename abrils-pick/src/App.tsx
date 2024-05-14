@@ -51,11 +51,11 @@ const App = () => {
             <p className="text-black text-lg font-bold pb-4">
               Admiro demasiado tu fuerza, tu voluntad, tu determinacion y ganas
               de comerte el 🌎! Me siento demasiado afortunada de tenerte en mi
-              vida, pues no solo me encantas por la persona q soy cuando estoy
-              contigo, pero me fascina la persona que eres.
+              vida, pues no solo me fascina la persona que eres, pero tambien
+              amo la persona que soy cuando estoy contigo.
             </p>
             <p className="text-black text-lg font-bold pb-4">
-              Aprendo cada dia mas de ti y de como ves el mundo, y me llenas de
+              Aprendo cada dia mas de ti y de como ves el mundo, me llenas de
               ganas y motivacion para ser mejor persona cada dia.
             </p>
             <p className="text-black text-lg font-bold pb-4">
