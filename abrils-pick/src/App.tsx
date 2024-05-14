@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import "./App.css";
 
@@ -39,10 +39,10 @@ const App = () => {
           </span>
 
           <p className="text-black text-lg font-bold pb-4">
-            Admiro demasiado tu fuerza tu, tu voluntad, tu determinacion y ganas
-            de comerte el 🌎! Me siento demasiado afortunada de tenerte en mi
-            vida, pues no solo me encantas por la persona q soy cuando estoy
-            contigo, pero me fascina la persona que eres.
+            Admiro demasiado tu fuerza, tu voluntad, tu determinacion y ganas de
+            comerte el 🌎! Me siento demasiado afortunada de tenerte en mi vida,
+            pues no solo me encantas por la persona q soy cuando estoy contigo,
+            pero me fascina la persona que eres.
           </p>
           <p className="text-black text-lg font-bold pb-4">
             Aprendo cada dia mas de ti y de como ves el mundo, y me llenas de
