@@ -66,7 +66,10 @@ const App = () => {
 
           <button
             className="bg-cyan-400 text-black w-60 h-11 b font-bold rounded-md border-black border-2 m-auto block active:border-4 hover:bg-cyan-500"
-            onClick={() => setShowCards(!showCards)}
+            onClick={() => {
+              setShowCards(!showCards);
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
           >
             Click me 👀
           </button>
@@ -83,7 +86,7 @@ const App = () => {
             En un intento de ser creativa y darte una sorpresa en tu dia (Que no
             sera ni tan sorpresa despues de todo 🥲), he creado 3 opciones para
             que elijas la que mas te guste, y asi poder disfrutar de un 🎁 que
-            vaya mas acorde a ti y que te haga mas sentir especial y a gusto.
+            vaya mas acorde a ti y que te haga sentir mas especial y a gusto.
           </p>
           <div className="flex gap-5 flex-col pb-14 lg:flex-row lg:w-80 lg:m-auto lg:mt-20">
             {/* Option 1 */}
