@@ -92,7 +92,7 @@ const App = () => {
             {/* Option 1 */}
             <button
               onClick={() => setShowOpt1(!showOpt1)}
-              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-12 px-8 rounded-md border-black border-2 active:border-4"
+              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-8 lg:py-12 px-8 rounded-md border-black border-2 active:border-4"
             >
               {showOpt1 ? (
                 <>
@@ -106,18 +106,18 @@ const App = () => {
                   <span className="pt-8 text-5xl">🏕️</span>
                 </>
               ) : (
-                <div className="flex gap-5 flex-col">
+                <div className="flex gap-1 lg:gap-5 flex-col">
                   <h2 className="text-black text-3xl font-bold">
                     {options[0].title}
                   </h2>
-                  <span className="mt-15 text-5xl">🔮</span>
+                  <span className="lg:mt-15 text-xl lg:text-5xl">🔮</span>
                 </div>
               )}
             </button>
             {/* Option 2 */}
             <button
               onClick={() => setShowOpt2(!showOpt2)}
-              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-12 px-8 rounded-md border-black border-2 active:border-4"
+              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-8 lg:py-12 px-8 rounded-md border-black border-2 active:border-4"
             >
               {showOpt2 ? (
                 <>
@@ -131,18 +131,18 @@ const App = () => {
                   <span className="pt-8 text-5xl">🏋️</span>
                 </>
               ) : (
-                <div className="flex gap-5 flex-col">
+                <div className="flex gap-1 flex-col">
                   <h2 className="text-black text-3xl font-bold">
                     {options[1].title}
                   </h2>
-                  <span className="mt-15 text-5xl">🪄</span>
+                  <span className="lg:mt-15 text-xl lg:text-5xl">🪄</span>
                 </div>
               )}
             </button>
             {/* Option 3 */}
             <button
               onClick={() => setShowOpt3(!showOpt3)}
-              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-12 px-8 active:border-4 rounded-md border-black border-2"
+              className="bg-cyan-400 text-black w-80 !lg:h-78 mx-auto py-8 lg:py-12 px-8 active:border-4 rounded-md border-black border-2"
             >
               {showOpt3 ? (
                 <>
@@ -156,11 +156,11 @@ const App = () => {
                   <span className="pt-8 text-5xl">🐶</span>
                 </>
               ) : (
-                <div className="flex gap-5 flex-col">
+                <div className="flex gap-1 flex-col">
                   <h2 className="text-black text-3xl font-bold">
                     {options[2].title}
                   </h2>
-                  <span className="mt-15 text-5xl">🎩</span>
+                  <span className="lg:mt-15 text-xl lg:text-5xl">🎩</span>
                 </div>
               )}
             </button>
